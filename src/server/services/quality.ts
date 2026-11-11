@@ -141,8 +141,9 @@ export async function createNonconformity(
   await notify(tx, ctx, {
     type: "NONCONFORMITY",
     severity: input.severity === "MINOR" ? "WARNING" : "CRITICAL",
-    title: `Non-conformity ${number}: ${input.title}`,
-    message: input.description.slice(0, 300),
+    title: "Non-conformity {number}: {title}",
+    message: "{text}",
+    params: { number, title: input.title, text: input.description.slice(0, 300) },
     link: `/app/quality/nonconformities/${nc.id}`,
     entityType: "nonconformity",
     entityId: nc.id,

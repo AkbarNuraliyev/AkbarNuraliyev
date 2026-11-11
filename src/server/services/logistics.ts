@@ -7,6 +7,13 @@ import { audit, nextNumber, notify, nowOf, type ServiceCtx } from "../core";
 import { confirmDelivery, dispatchOrder } from "./orders";
 import { emitWebhook } from "./webhooks";
 
+/** Alert message templates per data source (translated on display). */
+const EXCURSION_MESSAGE: Record<DataSource, string> = {
+  MANUAL: "{temp} °C recorded (manual reading), allowed {min} … {max} °C.",
+  DEVICE: "{temp} °C recorded (device reading), allowed {min} … {max} °C.",
+  DEMO: "{temp} °C recorded (demo reading), allowed {min} … {max} °C.",
+};
+
 export async function createShipment(
   tx: Tx,
   ctx: ServiceCtx,
@@ -160,8 +167,9 @@ export async function recordTemperature(
     const created = await notify(tx, ctx, {
       type: "TEMP_EXCURSION",
       severity: "CRITICAL",
-      title: `Temperature excursion: ${label}`,
-      message: `${input.temperatureC > 0 ? "+" : ""}${input.temperatureC} °C recorded (${input.dataSource.toLowerCase()} reading), allowed ${min ?? "—"} … ${max ?? "—"} °C.`,
+      title: "Temperature excursion: {label}",
+      message: EXCURSION_MESSAGE[input.dataSource] ?? EXCURSION_MESSAGE.MANUAL,
+      params: { label, temp: `${input.temperatureC > 0 ? "+" : ""}${input.temperatureC}`, min: min ?? "—", max: max ?? "—" },
       link,
       entityType: input.sourceType === "CHAMBER" ? "storage_chamber" : "shipment",
       entityId: input.chamberId ?? input.shipmentId ?? vehicleId ?? undefined,

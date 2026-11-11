@@ -175,8 +175,9 @@ export async function createReceipt(tx: Tx, ctx: ServiceCtx, input: ReceiptInput
     await notify(tx, ctx, {
       type: "RECEIVING_REJECTION",
       severity: input.decision === "REJECTED" ? "CRITICAL" : "WARNING",
-      title: `${input.decision === "REJECTED" ? "Delivery rejected" : "Delivery partially accepted"}: ${supplier.name}`,
-      message: `${number} (${code}) — ${input.rejectionReason ?? ""}`,
+      title: input.decision === "REJECTED" ? "Delivery rejected: {supplier}" : "Delivery partially accepted: {supplier}",
+      message: "{number} ({code}) — {reason}",
+      params: { supplier: supplier.name, number, code, reason: input.rejectionReason ?? "" },
       link: `/app/receiving/${receipt.id}`,
       entityType: "raw_material_receipt",
       entityId: receipt.id,

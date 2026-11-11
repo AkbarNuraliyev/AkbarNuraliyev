@@ -509,3 +509,307 @@ time zone	часовой пояс	vaqt zonasi
 {n} lots	партий: {n}	partiyalar: {n}
 {n} open invoices	открытых счетов: {n}	ochiq hisoblar: {n}
 {n} returns	возвратов: {n}	qaytarishlar: {n}
+All figures are calculated from operational records for the selected period. Every report can be downloaded as CSV or Excel.	Все показатели рассчитаны по операционным записям за выбранный период. Любой отчёт можно скачать в CSV или Excel.	Barcha ko‘rsatkichlar tanlangan davrdagi operatsion yozuvlar asosida hisoblangan. Har bir hisobotni CSV yoki Excel formatida yuklab olish mumkin.
+Yield and waste trend	Динамика выхода и отходов	Chiqish va chiqindilar dinamikasi
+waste	отходы	chiqindilar
+Invite colleagues, assign roles and departments. Department-scoped roles only see the modules of their department.	Приглашайте коллег, назначайте роли и отделы. Роли уровня отдела видят только разделы своего отдела.	Hamkasblarni taklif qiling, rollar va bo‘limlarni tayinlang. Bo‘lim darajasidagi rollar faqat o‘z bo‘limi bo‘limlarini ko‘radi.
+Job title	Должность	Lavozim
+Last sign-in	Последний вход	Oxirgi kirish
+Owner	Владелец	Egasi
+Pending invitations	Ожидающие приглашения	Kutilayotgan takliflar
+Plan, usage limits, payment status and billing history.	Тариф, лимиты, статус оплаты и история платежей.	Tarif, limitlar, to‘lov holati va to‘lovlar tarixi.
+The SAFI Demo workspace runs on an Enterprise subscription for demonstration; plan changes are disabled.	Демо-пространство SAFI работает на тарифе Enterprise для демонстрации; смена тарифа отключена.	SAFI demo ish maydoni namoyish uchun Enterprise tarifida ishlaydi; tarifni o‘zgartirish o‘chirilgan.
+Billing cycle	Период оплаты	To‘lov davri
+Current period ends	Текущий период заканчивается	Joriy davr tugaydi
+Renewal	Продление	Uzaytirish
+Renews automatically (invoice)	Продлевается автоматически (по счёту)	Avtomatik uzaytiriladi (hisob bo‘yicha)
+Payment provider	Платёжная система	To‘lov tizimi
+Not connected — bank transfer, confirmed by the platform operator	Не подключена — банковский перевод, подтверждает оператор платформы	Ulanmagan — bank o‘tkazmasi, platforma operatori tasdiqlaydi
+Users (incl. pending invitations)	Пользователи (включая приглашения)	Foydalanuvchilar (takliflar bilan)
+Production facilities	Производственные площадки	Ishlab chiqarish obyektlari
+Warehouses	Склады	Omborlar
+Retail locations	Розничные точки	Chakana savdo nuqtalari
+Supplier & farm management	Поставщики и фермы	Yetkazib beruvchilar va fermalar
+Raw material receiving & batch IDs	Приёмка сырья и номера партий	Xomashyo qabuli va partiya raqamlari
+Product catalog & labels	Каталог продукции и этикетки	Mahsulot katalogi va yorliqlar
+Inventory & FEFO	Запасы и FEFO	Zaxiralar va FEFO
+Order management	Управление заказами	Buyurtmalarni boshqarish
+Customers & receivables	Клиенты и дебиторка	Mijozlar va debitorlik
+Batch traceability (backward)	Прослеживаемость партий (назад)	Partiyalarni kuzatish (orqaga)
+Employees directory	Справочник сотрудников	Xodimlar ma’lumotnomasi
+Production management / MES	Управление производством / MES	Ishlab chiqarishni boshqarish / MES
+Multiple warehouses	Несколько складов	Bir nechta ombor
+Current	Текущий	Joriy
+Department (for department-scoped roles)	Отдел (для ролей уровня отдела)	Bo‘lim (bo‘lim darajasidagi rollar uchun)
+Plan seat limit	Лимит мест по тарифу	Tarif bo‘yicha o‘rinlar limiti
+Send invitation	Отправить приглашение	Taklif yuborish
+System	Системная	Tizim
+department-scoped	уровень отдела	bo‘lim darajasi
+Owns the workspace and subscription. Full access.	Владеет рабочим пространством и подпиской. Полный доступ.	Ish maydoni va obunaga egalik qiladi. To‘liq ruxsat.
+Module	Раздел	Bo‘lim
+View	Просмотр	Ko‘rish
+Operate	Работа	Ishlash
+Manage	Управление	Boshqarish
+Special	Особые права	Maxsus huquqlar
+Initiate recalls and block affected inventory	Запускать отзыв и блокировать затронутые запасы	Qaytarib olishni boshlash va zaxiralarni bloklash
+Invite users, assign roles and permissions	Приглашать пользователей, назначать роли и права	Foydalanuvchilarni taklif qilish, rollar va huquqlarni berish
+Manage subscription, plan and billing	Управлять подпиской, тарифом и оплатой	Obuna, tarif va to‘lovni boshqarish
+View: see records · Operate: record day-to-day operations · Manage: configure master data, approve, adjust and delete.	Просмотр — видеть записи · Работа — вести ежедневные операции · Управление — настраивать справочники, утверждать, корректировать и удалять.	Ko‘rish — yozuvlarni ko‘rish · Ishlash — kundalik amallarni yuritish · Boshqarish — ma’lumotnomalarni sozlash, tasdiqlash, tuzatish va o‘chirish.
+Organization profile, locale, batch numbering and operational thresholds.	Профиль организации, язык, нумерация партий и операционные пороги.	Tashkilot profili, til, partiyalarni raqamlash va operatsion chegaralar.
+Display name	Отображаемое название	Ko‘rsatiladigan nom
+Legal name	Юридическое название	Yuridik nomi
+TIN	ИНН	STIR
+Time zone	Часовой пояс	Vaqt zonasi
+IANA name, e.g. Asia/Tashkent	Название IANA, например Asia/Tashkent	IANA nomi, masalan Asia/Tashkent
+Currency	Валюта	Valyuta
+Default language	Язык по умолчанию	Standart til
+Batch ID format	Формат номера партии	Partiya raqami formati
+Prefix	Префикс	Prefiks
+Template	Шаблон	Shablon
+Tokens	Подстановки	O‘rinbosarlar
+The sequence resets daily when the template contains a date token.	Порядковый номер обнуляется каждый день, если в шаблоне есть дата.	Shablonda sana bo‘lsa, tartib raqami har kuni qaytadan boshlanadi.
+Current example	Пример сейчас	Hozirgi namuna
+Dates are displayed as DD.MM.YYYY; weights in kg and tonnes.	Даты показываются как ДД.ММ.ГГГГ; вес — в кг и тоннах.	Sanalar KK.OO.YYYY ko‘rinishida; vazn kg va tonnada.
+Save organization	Сохранить организацию	Tashkilotni saqlash
+Operational thresholds	Операционные пороги	Operatsion chegaralar
+Chilled min °C	Охлаждённое, мин. °C	Sovutilgan, min. °C
+Chilled max °C	Охлаждённое, макс. °C	Sovutilgan, maks. °C
+Frozen target °C	Заморозка, цель °C	Muzlatilgan, maqsad °C
+Frozen alert above °C	Заморозка, тревога выше °C	Muzlatilgan, ogohlantirish yuqori °C
+Chilled shelf life (h)	Срок охлаждённого (ч)	Sovutilgan muddati (soat)
+Expiry warning (h)	Предупреждать о сроке за (ч)	Muddat haqida ogohlantirish (soat)
+Mass balance tolerance %	Допуск баланса масс, %	Massa balansi chegarasi, %
+In-full tolerance %	Допуск полноты поставки, %	To‘liq yetkazish chegarasi, %
+Forecast history (weeks)	История для прогноза (недель)	Prognoz tarixi (hafta)
+Safety stock %	Страховой запас, %	Xavfsizlik zaxirasi, %
+Default payment terms (days)	Отсрочка оплаты по умолчанию (дней)	Standart to‘lov muddati (kun)
+Monthly seasonal demand factors (forecasting)	Сезонные коэффициенты спроса по месяцам (прогноз)	Oylar bo‘yicha mavsumiy talab koeffitsientlari (prognoz)
+Jan	Янв	Yan
+Feb	Фев	Fev
+Mar	Мар	Mar
+Apr	Апр	Apr
+May	Май	May
+Jun	Июн	Iyun
+Jul	Июл	Iyul
+Aug	Авг	Avg
+Sep	Сен	Sen
+Oct	Окт	Okt
+Nov	Ноя	Noy
+Dec	Дек	Dek
+Show farm region on the public QR page	Показывать регион фермы на публичной QR-странице	Ommaviy QR sahifada ferma viloyatini ko‘rsatish
+Public QR page message	Сообщение на публичной QR-странице	Ommaviy QR sahifadagi xabar
+Save thresholds	Сохранить пороги	Chegaralarni saqlash
+Entity	Объект	Obyekt
+Changes	Изменения	O‘zgarishlar
+field(s)	поле(й)	maydon
+Action, summary, user…	Действие, описание, пользователь…	Amal, tavsif, foydalanuvchi…
+Adapters for accounting, e-invoicing, telematics, POS and production equipment. A connector is shown as Connected only after a successful live connection test.	Адаптеры для учёта, электронных счетов, телематики, касс и оборудования. Коннектор отмечается «Подключено» только после успешной проверки реального соединения.	Buxgalteriya, elektron hisob-fakturalar, telematika, kassa va uskunalar uchun adapterlar. Konnektor faqat haqiqiy ulanish tekshiruvidan so‘ng «Ulangan» deb belgilanadi.
+Honest connection status	Честный статус подключения	Ulanishning haqiqiy holati
+No external system is connected by default. Where partner API documentation or credentials are not yet available, the adapter is prepared and data can be exchanged manually via CSV/Excel import and export.	По умолчанию ни одна внешняя система не подключена. Если у партнёра ещё нет документации API или доступов, адаптер подготовлен, а данные можно передавать вручную через импорт и экспорт CSV/Excel.	Standart holatda hech qanday tashqi tizim ulanmagan. Hamkorning API hujjatlari yoki kirish ma’lumotlari hali bo‘lmasa, adapter tayyor va ma’lumotlarni CSV/Excel import va eksport orqali qo‘lda almashish mumkin.
+E-invoicing	Электронные счета-фактуры	Elektron hisob-fakturalar
+Electronic invoices (ESF), delivery notes and e-signature document exchange in Uzbekistan.	Электронные счета-фактуры (ЭСФ), накладные и документооборот с ЭЦП в Узбекистане.	O‘zbekistonda elektron hisob-fakturalar (ESF), yuk xatlari va ERI bilan hujjat almashinuvi.
+Required to connect	Нужно для подключения	Ulash uchun kerak
+Partner API access agreement with Didox	Партнёрский договор с Didox на доступ к API	Didox bilan API bo‘yicha hamkorlik shartnomasi
+Company TIN and an e-signature (EIMZO) key for signing	ИНН компании и ключ ЭЦП (E-IMZO) для подписи	Kompaniya STIRi va imzo uchun ERI (E-IMZO) kaliti
+Partner API documentation and sandbox credentials	Документация API партнёра и тестовые доступы	Hamkor API hujjatlari va test kirish ma’lumotlari
+Data flows	Потоки данных	Ma’lumotlar oqimi
+Sales invoices → e-invoice drafts	Счета на продажу → черновики ЭСФ	Savdo hisoblari → ESF qoralamalari
+Signed status ← Didox	Статус подписи ← Didox	Imzo holati ← Didox
+Electronic invoices and acts through the Faktura.uz operator.	Электронные счета-фактуры и акты через оператора Faktura.uz.	Faktura.uz operatori orqali elektron hisob-fakturalar va dalolatnomalar.
+Faktura.uz API account	Аккаунт API Faktura.uz	Faktura.uz API hisobi
+Company TIN and e-signature	ИНН компании и ЭЦП	Kompaniya STIRi va ERI
+API documentation from the operator	Документация API от оператора	Operatordan API hujjatlari
+Document statuses ← Faktura.uz	Статусы документов ← Faktura.uz	Hujjat holatlari ← Faktura.uz
+Accounting / ERP	Учёт / ERP	Buxgalteriya / ERP
+Distribution ERP — orders, customers and stock synchronization.	ERP для дистрибуции — синхронизация заказов, клиентов и остатков.	Distribyutsiya ERP — buyurtmalar, mijozlar va qoldiqlarni sinxronlash.
+Filial / project identifiers	Идентификаторы филиала / проекта	Filial / loyiha identifikatorlari
+Orders ← Smartup	Заказы ← Smartup	Buyurtmalar ← Smartup
+Stock levels → Smartup	Остатки → Smartup	Qoldiqlar → Smartup
+Live bird deliveries: weighing, inspection, acceptance decision and batch creation.	Поставки живой птицы: взвешивание, проверка, решение о приёмке и создание партии.	Tirik parranda yetkazmalari: tortish, tekshirish, qabul qarori va partiya yaratish.
+Acceptance rate	Доля принятых	Qabul qilinganlar ulushi
+Receipt	Приёмка	Qabul
+Supplier / farm	Поставщик / ферма	Yetkazib beruvchi / ferma
+Birds	Птица	Parranda
+Net kg	Нетто, кг	Netto, kg
+Avg kg	Сред., кг	O‘rt., kg
+Receipt, batch ID, farm, vehicle…	Приёмка, партия, ферма, машина…	Qabul, partiya, ferma, mashina…
+Select supplier → register delivery → quantities → weighing → inspection → decision. A unique batch ID and QR code are generated on save.	Выберите поставщика → зарегистрируйте поставку → количество → взвешивание → проверка → решение. При сохранении создаются уникальный номер партии и QR-код.	Yetkazib beruvchini tanlang → yetkazmani ro‘yxatga oling → miqdor → tortish → tekshiruv → qaror. Saqlashda noyob partiya raqami va QR-kod yaratiladi.
+Veterinary certificate no.	№ ветеринарного сертификата	Veterinariya sertifikati raqami
+Price per kg live	Цена за кг живого веса	Tirik vaznning 1 kg narxi
+Rejected weight (optional)	Вес отбраковки (необязательно)	Rad etilgan vazn (ixtiyoriy)
+Defaults to average weight × (DOA + rejected).	По умолчанию: средний вес × (падёж + отбраковка).	Standart: o‘rtacha vazn × (nobud + rad etilgan).
+Scale device ID	ID весов	Tarozi ID
+Batch ID will be generated on save, e.g.	Номер партии будет создан при сохранении, например	Partiya raqami saqlashda yaratiladi, masalan
+Quality grade	Сорт	Sifat navi
+Body temperature	Температура тела	Tana harorati
+Feed withdrawal	Голодная выдержка	Ozuqasiz saqlash
+Bruising / damage	Ушибы / повреждения	Lat yeyish / shikastlar
+General appearance and plumage acceptable	Внешний вид и оперение в норме	Tashqi ko‘rinish va pat holati me’yorida
+Receiving checklist (HACCP prerequisite)	Чек-лист приёмки (условие ХАССП)	Qabul nazorat varag‘i (HACCP sharti)
+Veterinary certificate present and valid	Ветеринарный сертификат есть и действителен	Veterinariya sertifikati mavjud va amal qiladi
+Crates and vehicle clean	Ящики и машина чистые	Yashiklar va mashina toza
+Body temperature (°C)	Температура тела (°C)	Tana harorati (°C)
+Inspection notes	Заметки проверки	Tekshiruv izohlari
+All live birds accepted (DOA deducted)	Вся живая птица принята (падёж вычтен)	Barcha tirik parranda qabul qilindi (nobudlar ayirildi)
+Some birds rejected; reason required	Часть птицы отбракована; нужна причина	Parrandaning bir qismi rad etildi; sabab kerak
+Entire load rejected; reason required	Весь груз отклонён; нужна причина	Butun yuk rad etildi; sabab kerak
+Enter a value for {item}	Введите значение: {item}	Qiymat kiriting: {item}
+Delivery saved. Batch {code} created.	Поставка сохранена. Создана партия {code}.	Yetkazma saqlandi. {code} partiyasi yaratildi.
+Disassembly tracking by batch and shift: input live weight, outputs by cut, by-products and waste.	Учёт разделки по партиям и сменам: живой вес на входе, выход по частям, субпродукты и отходы.	Partiya va smenalar bo‘yicha bo‘laklash hisobi: kirish tirik vazni, qismlar bo‘yicha chiqish, qo‘shimcha mahsulotlar va chiqindilar.
+Output by day	Выход по дням	Kunlar bo‘yicha chiqish
+Yield and waste by day	Выход и отходы по дням	Kunlar bo‘yicha chiqish va chiqindilar
+Line	Линия	Liniya
+Planned input	План на входе	Rejadagi kirish
+Input	Вход	Kirish
+Saleable	Товарное	Tovar
+Unexplained mass difference	Необъяснённая разница масс	Izohlanmagan massa farqi
+Input = saleable output + waste + unexplained difference	Вход = товарный выход + отходы + необъяснённая разница	Kirish = tovar chiqishi + chiqindilar + izohlanmagan farq
+Unexplained / pending	Не объяснено / ожидает	Izohlanmagan / kutilmoqda
+Live birds processed in this shift	Живой птицы переработано в этой смене	Ushbu smenada qayta ishlangan tirik parranda
+Input kg	Вход, кг	Kirish, kg
+Outputs kg	Выход, кг	Chiqish, kg
+Remaining to record	Осталось записать	Qayd etish qoldi
+Actual	Факт	Haqiqiy
+Forecast	Прогноз	Prognoz
+Stock by warehouse, chamber and batch. Allocation always follows FEFO — first expired, first out.	Остатки по складам, камерам и партиям. Резерв всегда по FEFO — первым истекает, первым уходит.	Omborlar, kameralar va partiyalar bo‘yicha qoldiqlar. Zaxiralash doimo FEFO bo‘yicha — birinchi tugaydigani birinchi chiqadi.
+res.	рез.	zax.
+not expired	срок не истёк	muddati o‘tmagan
+Distribution	Распределительный	Taqsimot
+Factory	Завод	Zavod
+Retail store	Магазин	Do‘kon
+Batch ID, product, SKU…	Партия, продукт, артикул…	Partiya, mahsulot, artikul…
+Scan a batch QR / label barcode with a handheld scanner or type the code.	Отсканируйте QR партии или штрихкод этикетки сканером либо введите код.	Partiya QR-kodi yoki yorliq shtrix-kodini skaner bilan o‘qing yoki kodni kiriting.
+Transfer	Перемещение	Ko‘chirish
+Lines	Строк	Qatorlar
+Physical stock counts. Variances are posted as STOCKTAKE movements when the count is completed.	Пересчёт фактических остатков. Расхождения проводятся движениями инвентаризации после завершения.	Haqiqiy qoldiqlarni sanash. Farqlar sanash yakunlangach inventarizatsiya harakati sifatida o‘tkaziladi.
+Stocktake	Инвентаризация	Inventarizatsiya
+Started	Начата	Boshlangan
+departure	выезд	jo‘nash
+No reading yet	Показаний пока нет	Hali ko‘rsatkich yo‘q
+Start the trip?	Начать рейс?	Reysni boshlaysizmi?
+Confirms loading of all stops and deducts stock.	Подтверждает погрузку по всем точкам и списывает товар со склада.	Barcha nuqtalar uchun yuklashni tasdiqlaydi va zaxiradan chiqaradi.
+Record body temperature	Записать температуру в кузове	Kuzov haroratini qayd etish
+Record temperature	Записать температуру	Haroratni qayd etish
+Proof of delivery	Подтверждение доставки	Yetkazib berish tasdig‘i
+Received by (name)	Кто принял (имя)	Kim qabul qildi (ism)
+Note	Примечание	Izoh
+Demonstration portal — orders and data are demo records.	Демонстрационный портал — заказы и данные являются демо-записями.	Namoyish portali — buyurtmalar va ma’lumotlar demo yozuvlardir.
+Order at your contract prices, track deliveries and download documents.	Заказывайте по договорным ценам, следите за доставкой и скачивайте документы.	Shartnoma narxlarida buyurtma bering, yetkazishni kuzating va hujjatlarni yuklab oling.
+Outstanding invoices	Неоплаченные счета	To‘lanmagan hisoblar
+Ordering cut-off	Приём заказов до	Buyurtma qabul qilish muddati
+Day before	Накануне	Bir kun oldin
+orders are delivered from the next day	заказы доставляются со следующего дня	buyurtmalar ertasi kundan yetkaziladi
+Recent orders	Последние заказы	So‘nggi buyurtmalar
+All orders	Все заказы	Barcha buyurtmalar
+Pack	Упаковка	Qadoq
+Line total	Сумма строки	Qator summasi
+Add line	Добавить строку	Qator qo‘shish
+Variable-weight products are invoiced on the actually delivered weight. Prices are your contract prices.	Весовой товар оплачивается по фактически доставленному весу. Цены — ваши договорные.	O‘zgaruvchan vaznli mahsulot haqiqatda yetkazilgan vazn bo‘yicha hisoblanadi. Narxlar — shartnoma narxlaringiz.
+Items	Позиции	Pozitsiyalar
+Estimated total	Предварительная сумма	Taxminiy summa
+Placed	Размещён	Joylashtirilgan
+Invoices and delivery notes for delivered orders. Electronic invoices (Didox / Faktura.uz) are not connected; these are printable documents.	Счета и накладные по доставленным заказам. Электронные счета-фактуры (Didox / Faktura.uz) не подключены; это документы для печати.	Yetkazilgan buyurtmalar bo‘yicha hisoblar va yuk xatlari. Elektron hisob-fakturalar (Didox / Faktura.uz) ulanmagan; bular chop etish uchun hujjatlar.
+Issued	Выставлен	Berilgan
+Due	Оплатить до	To‘lov muddati
+Platform overview	Обзор платформы	Platforma ko‘rinishi
+Registered organizations, subscriptions and platform usage. Demo tenants are excluded from revenue figures.	Зарегистрированные организации, подписки и использование платформы. Демо-организации не учитываются в выручке.	Ro‘yxatdan o‘tgan tashkilotlar, obunalar va platformadan foydalanish. Demo tashkilotlar tushumga kiritilmaydi.
+Active subscriptions	Активные подписки	Faol obunalar
+Trials	Пробные	Sinov davrida
+MRR (estimate)	MRR (оценка)	MRR (taxmin)
+Unpaid invoices	Неоплаченные счета	To‘lanmagan hisoblar
+Active users	Активные пользователи	Faol foydalanuvchilar
+Newest organizations	Новые организации	Yangi tashkilotlar
+Subscription	Подписка	Obuna
+demo	демо	demo
+Platform operator activity	Действия оператора платформы	Platforma operatori faoliyati
+No operator actions yet.	Действий оператора пока нет.	Operator amallari hali yo‘q.
+Every registered company workspace. Suspending blocks sign-in and API access immediately; data is retained.	Все зарегистрированные компании. Приостановка сразу блокирует вход и доступ к API; данные сохраняются.	Barcha ro‘yxatdan o‘tgan kompaniyalar. To‘xtatish kirish va API ruxsatini darhol bloklaydi; ma’lumotlar saqlanadi.
+Orders	Заказы	Buyurtmalar
+Receipts	Приёмки	Qabullar
+Name, slug, TIN…	Название, адрес, ИНН…	Nomi, manzil, STIR…
+Members	Участники	A’zolar
+Facilities	Площадки	Obyektlar
+Suspension reason	Причина приостановки	To‘xtatish sababi
+Trial ends	Пробный период до	Sinov muddati tugaydi
+Custom user limit (Enterprise)	Свой лимит пользователей (Enterprise)	Maxsus foydalanuvchilar limiti (Enterprise)
+Save subscription	Сохранить подписку	Obunani saqlash
+Feature availability	Доступные разделы	Mavjud bo‘limlar
+Overrides on top of the plan's features	Настройки поверх возможностей тарифа	Tarif imkoniyatlari ustidan sozlamalar
+Logistics, fleet & cold chain	Логистика, транспорт и холодовая цепь	Logistika, transport va sovuq zanjir
+Quality control & HACCP	Контроль качества и ХАССП	Sifat nazorati va HACCP
+Full forward traceability	Полная прослеживаемость вперёд	To‘liq oldinga kuzatuvchanlik
+Recall workflow	Процесс отзыва продукции	Mahsulotni qaytarib olish jarayoni
+Customer QR traceability page	QR-страница прослеживаемости для покупателя	Xaridor uchun QR kuzatuv sahifasi
+Demand forecasting & planning	Прогноз спроса и планирование	Talab prognozi va rejalashtirish
+Advanced analytics	Расширенная аналитика	Kengaytirilgan tahlil
+Save features	Сохранить разделы	Bo‘limlarni saqlash
+Billing invoices	Счета за подписку	Obuna hisoblari
+Monthly (UZS)	В месяц (UZS)	Oyiga (UZS)
+Yearly (UZS)	В год (UZS)	Yiliga (UZS)
+Max users	Макс. пользователей	Maks. foydalanuvchilar
+Max facilities	Макс. площадок	Maks. obyektlar
+Max warehouses	Макс. складов	Maks. omborlar
+Max retail locations	Макс. магазинов	Maks. do‘konlar
+Trial days	Дней пробного периода	Sinov kunlari
+Features	Возможности	Imkoniyatlar
+Active (available for sign-up and changes)	Активен (доступен для регистрации и смены)	Faol (ro‘yxatdan o‘tish va o‘zgartirish uchun)
+Shown on public pricing page	Показывать на странице тарифов	Tariflar sahifasida ko‘rsatish
+Save plan	Сохранить тариф	Tarifni saqlash
+Subscription invoices for all organizations.	Счета за подписку всех организаций.	Barcha tashkilotlarning obuna hisoblari.
+No online payment provider is connected. Payments are confirmed manually after the bank transfer appears on the statement; nothing is marked paid automatically.	Онлайн-оплата не подключена. Платёж подтверждается вручную, когда перевод появился в выписке банка; ничего не отмечается оплаченным автоматически.	Onlayn to‘lov ulanmagan. To‘lov bank ko‘chirmasida o‘tkazma paydo bo‘lgach qo‘lda tasdiqlanadi; hech narsa avtomatik to‘langan deb belgilanmaydi.
+No invoices yet.	Счетов пока нет.	Hali hisoblar yo‘q.
+Every transactional e-mail is logged. Without SMTP configuration messages are stored as NOT_SENT.	Каждое системное письмо сохраняется. Без настройки SMTP письма сохраняются со статусом NOT_SENT.	Har bir tizim xati saqlanadi. SMTP sozlanmagan bo‘lsa, xatlar NOT_SENT holatida saqlanadi.
+SMTP is not configured (SMTP_HOST). E-mails are not delivered; invitation links are shown once to the inviting user instead.	SMTP не настроен (SMTP_HOST). Письма не отправляются; ссылку-приглашение один раз показывают тому, кто приглашает.	SMTP sozlanmagan (SMTP_HOST). Xatlar yuborilmaydi; taklif havolasi taklif qilayotgan foydalanuvchiga bir marta ko‘rsatiladi.
+Subject	Тема	Mavzu
+Body (tokens masked)	Текст (ссылки скрыты)	Matn (havolalar yashirilgan)
+Appearance acceptable	Внешний вид в норме	Tashqi ko‘rinish me’yorida
+Birds accepted	Принято птиц	Qabul qilingan parranda
+Check	Проверка	Tekshiruv
+Delivery & inspection	Поставка и проверка	Yetkazma va tekshiruv
+Delivery confirmed ({status}). Invoice {inv} issued.	Доставка подтверждена ({status}). Выставлен счёт {inv}.	Yetkazish tasdiqlandi ({status}). {inv} hisobi berildi.
+Delivery confirmed in full	Доставлено полностью	To‘liq yetkazildi
+Delivery value (accepted)	Стоимость поставки (принято)	Yetkazma qiymati (qabul qilingan)
+Demonstration defaults: chilled ≤ +4 °C, frozen −18 °C, 72 h chilled shelf life.	Значения по умолчанию: охлаждённое ≤ +4 °C, заморозка −18 °C, срок охлаждённого 72 ч.	Standart qiymatlar: sovutilgan ≤ +4 °C, muzlatilgan −18 °C, sovutilgan muddati 72 soat.
+Exchange of products, customers, sales invoices and payments with 1C accounting via HTTP services or CSV.	Обмен товарами, клиентами, счетами и оплатами с 1С через HTTP-сервисы или CSV.	1C bilan mahsulotlar, mijozlar, hisoblar va to‘lovlarni HTTP xizmatlari yoki CSV orqali almashish.
+Facility	Площадка	Obyekt
+Inspection checklists	Чек-листы проверки	Tekshiruv varaqlari
+No pending invitations.	Ожидающих приглашений нет.	Kutilayotgan takliflar yo‘q.
+Order {n} submitted	Заказ {n} отправлен	{n} buyurtmasi yuborildi
+Processed	Переработано	Qayta ishlangan
+Reading saved (within limits)	Показание сохранено (в норме)	Ko‘rsatkich saqlandi (me’yorda)
+Reading saved — EXCURSION: outside the permitted range, alert raised	Показание сохранено — ОТКЛОНЕНИЕ: вне допустимого диапазона, создано оповещение	Ko‘rsatkich saqlandi — OG‘ISH: ruxsat etilgan oraliqdan tashqarida, ogohlantirish yaratildi
+Recorded by	Записал	Qayd etgan
+Result	Результат	Natija
+Shipment departed — orders are in delivery and stock is deducted	Рейс начат — заказы в доставке, товар списан со склада	Reys boshlandi — buyurtmalar yetkazilmoqda, zaxiradan chiqarildi
+Stock transfers between warehouses, chambers and retail stores (FEFO lots are listed first).	Перемещения между складами, камерами и магазинами (партии по FEFO — первыми).	Omborlar, kameralar va do‘konlar o‘rtasida ko‘chirishlar (FEFO partiyalari birinchi).
+Value	Значение	Qiymat
+Veterinary certificate	Ветеринарный сертификат	Veterinariya sertifikati
+Weighing source	Источник веса	Vazn manbai
+{n} lot(s) expire within 24 hours	Партий со сроком менее 24 ч: {n}	24 soat ichida muddati tugaydigan partiyalar: {n}
+{kg} must be sold or allocated today (FEFO).	{kg} нужно продать или зарезервировать сегодня (FEFO).	{kg} bugun sotilishi yoki zaxiralanishi kerak (FEFO).
+{n} expired lot(s) still in stock	Просроченных партий на складе: {n}	Omborda muddati o‘tgan partiyalar: {n}
+{kg} has passed its expiry date and must be written off.	{kg} — срок годности истёк, нужно списать.	{kg} — yaroqlilik muddati o‘tgan, hisobdan chiqarish kerak.
+Low stock: {product}	Мало на складе: {product}	Omborda kam: {product}
+Free stock {free} is below the minimum of {min}.	Свободный остаток {free} ниже минимума {min}.	Erkin qoldiq {free} minimal {min} dan kam.
+Overdue invoice {number} — {customer}	Просрочен счёт {number} — {customer}	Muddati o‘tgan hisob {number} — {customer}
+Outstanding {amount} UZS, due {date}.	Долг {amount} UZS, срок оплаты {date}.	Qarz {amount} UZS, to‘lov muddati {date}.
+Driver licence expiring: {name}	Истекают права водителя: {name}	Haydovchilik guvohnomasi muddati tugaydi: {name}
+Licence {licence} expires {date}.	Права {licence} действуют до {date}.	{licence} guvohnomasi {date} gacha amal qiladi.
+Temperature excursion: {label}	Нарушение температуры: {label}	Harorat og‘ishi: {label}
+{temp} °C recorded (manual reading), allowed {min} … {max} °C.	Записано {temp} °C (вручную), допустимо {min} … {max} °C.	{temp} °C qayd etildi (qo‘lda), ruxsat {min} … {max} °C.
+{temp} °C recorded (device reading), allowed {min} … {max} °C.	Записано {temp} °C (датчик), допустимо {min} … {max} °C.	{temp} °C qayd etildi (datchik), ruxsat {min} … {max} °C.
+{temp} °C recorded (demo reading), allowed {min} … {max} °C.	Записано {temp} °C (демо-показание), допустимо {min} … {max} °C.	{temp} °C qayd etildi (demo ko‘rsatkich), ruxsat {min} … {max} °C.
+Unexplained mass difference in shift {number}	Необъяснённая разница масс в смене {number}	{number} smenasida izohlanmagan massa farqi
+{kg} kg ({pct}%) of input weight is not accounted for by outputs or waste (tolerance {tol}%).	{kg} кг ({pct}%) входного веса не учтено в выходе и отходах (допуск {tol}%).	Kirish vaznining {kg} kg ({pct}%) chiqish va chiqindilarda hisobga olinmagan (chegara {tol}%).
+Non-conformity {number}: {title}	Несоответствие {number}: {title}	Nomuvofiqlik {number}: {title}
+{text}	{text}	{text}
+Delivery rejected: {supplier}	Поставка отклонена: {supplier}	Yetkazma rad etildi: {supplier}
+Delivery partially accepted: {supplier}	Поставка принята частично: {supplier}	Yetkazma qisman qabul qilindi: {supplier}
+{number} ({code}) — {reason}	{number} ({code}) — {reason}	{number} ({code}) — {reason}
+Recall {number} initiated for batch {code}	Запущен отзыв {number} по партии {code}	{code} partiyasi bo‘yicha {number} qaytarib olish boshlandi
+Target	Цель	Maqsad
+Deviation	Отклонение	Og‘ish
+Unexplained = Input − Saleable − Waste	Необъяснённое = Вход − Товарное − Отходы	Izohlanmagan = Kirish − Tovar − Chiqindilar
+Catalog & contract prices	Каталог и договорные цены	Katalog va shartnoma narxlari
+Products assigned to your account with your contract prices (UZS, per kg for variable-weight products).	Товары, доступные вашей компании, по договорным ценам (UZS, за кг для весового товара).	Kompaniyangizga biriktirilgan mahsulotlar shartnoma narxlarida (UZS, o‘zgaruvchan vaznli mahsulot uchun 1 kg).
+Prices, limits and features per plan. Changes apply to all subscriptions on the plan and to the public pricing page. Empty limit = unlimited.	Цены, лимиты и возможности тарифов. Изменения применяются ко всем подпискам на тарифе и к публичной странице тарифов. Пустой лимит — без ограничений.	Tariflar narxlari, limitlari va imkoniyatlari. O‘zgarishlar tarifdagi barcha obunalarga va ommaviy tariflar sahifasiga qo‘llanadi. Bo‘sh limit — cheklovsiz.

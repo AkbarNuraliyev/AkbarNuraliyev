@@ -1941,6 +1941,8 @@ model Notification {
   entityId   String?
   link       String?
   dedupeKey  String?
+  /// Values for the {placeholders} in title/message; both are English templates translated on display.
+  params     Json?
   status     NotificationStatus   @default(OPEN)
   readAt     DateTime?
   resolvedAt DateTime?

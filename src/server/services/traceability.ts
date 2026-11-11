@@ -241,8 +241,9 @@ export async function initiateRecall(tx: Tx, ctx: ServiceCtx, input: { batchId: 
   await notify(tx, ctx, {
     type: "RECALL",
     severity: "CRITICAL",
-    title: `Recall ${number} initiated for batch ${batch.code}`,
-    message: input.reason,
+    title: "Recall {number} initiated for batch {code}",
+    message: "{text}",
+    params: { number, code: batch.code, text: input.reason },
     link: `/app/traceability/${batch.id}`,
     entityType: "recall",
     entityId: recall.id,

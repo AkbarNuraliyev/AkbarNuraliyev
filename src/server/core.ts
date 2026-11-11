@@ -120,8 +120,10 @@ export async function notify(
   n: {
     type: string;
     severity?: "INFO" | "WARNING" | "CRITICAL";
+    /** English template, translated on display; {placeholders} are filled from `params`. */
     title: string;
     message: string;
+    params?: Record<string, string | number>;
     link?: string;
     entityType?: string;
     entityId?: string;
@@ -142,6 +144,7 @@ export async function notify(
       severity: n.severity ?? "INFO",
       title: n.title,
       message: n.message,
+      params: n.params ?? undefined,
       link: n.link,
       entityType: n.entityType,
       entityId: n.entityId,

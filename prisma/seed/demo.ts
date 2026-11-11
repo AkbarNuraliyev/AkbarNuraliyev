@@ -122,14 +122,14 @@ async function createMasterData(start: Date) {
   ctxBase = { tenantId, tz: TZ, settings: parseSettings({ ...DEFAULT_SETTINGS, forecastWeeks: 4 }) };
 
   const staff = [
-    { key: "admin", email: "admin@safi-demo.uz", name: "Dilnoza Karimova (demo admin)", role: "ADMIN", dept: null, title: "Operations director" },
-    { key: "production", email: "production@safi-demo.uz", name: "Rustam Tursunov (demo)", role: "MANAGER", dept: "Production", title: "Production manager" },
-    { key: "quality", email: "quality@safi-demo.uz", name: "Malika Yusupova (demo)", role: "MANAGER", dept: "Quality", title: "Quality & food safety manager" },
-    { key: "warehouse", email: "warehouse@safi-demo.uz", name: "Jasur Aliyev (demo)", role: "EMPLOYEE", dept: "Warehouse", title: "Warehouse operator" },
-    { key: "sales", email: "sales@safi-demo.uz", name: "Nigora Saidova (demo)", role: "MANAGER", dept: "Sales", title: "Key account manager" },
-    { key: "driver", email: "driver@safi-demo.uz", name: "Bekzod Nazarov (demo)", role: "EMPLOYEE", dept: "Logistics", title: "Driver" },
-    { key: "retail", email: "retail@safi-demo.uz", name: "Kamola Ergasheva (demo)", role: "MANAGER", dept: "Retail", title: "Retail network manager" },
-    { key: "procurement", email: "procurement@safi-demo.uz", name: "Otabek Qodirov (demo)", role: "EMPLOYEE", dept: "Procurement", title: "Livestock buyer" },
+    { key: "admin", email: "admin@safi-demo.uz", name: "Dilnoza Karimova (demo admin)", role: "ADMIN", dept: null, title: "Операционный директор" },
+    { key: "production", email: "production@safi-demo.uz", name: "Rustam Tursunov (demo)", role: "MANAGER", dept: "Production", title: "Начальник производства" },
+    { key: "quality", email: "quality@safi-demo.uz", name: "Malika Yusupova (demo)", role: "MANAGER", dept: "Quality", title: "Менеджер по качеству и безопасности" },
+    { key: "warehouse", email: "warehouse@safi-demo.uz", name: "Jasur Aliyev (demo)", role: "EMPLOYEE", dept: "Warehouse", title: "Кладовщик" },
+    { key: "sales", email: "sales@safi-demo.uz", name: "Nigora Saidova (demo)", role: "MANAGER", dept: "Sales", title: "Менеджер по ключевым клиентам" },
+    { key: "driver", email: "driver@safi-demo.uz", name: "Bekzod Nazarov (demo)", role: "EMPLOYEE", dept: "Logistics", title: "Водитель" },
+    { key: "retail", email: "retail@safi-demo.uz", name: "Kamola Ergasheva (demo)", role: "MANAGER", dept: "Retail", title: "Руководитель розничной сети" },
+    { key: "procurement", email: "procurement@safi-demo.uz", name: "Otabek Qodirov (demo)", role: "EMPLOYEE", dept: "Procurement", title: "Закупщик птицы" },
   ];
   const users: DemoRefs["users"] = { owner: { id: owner.id, name: owner.name, email: owner.email } };
   for (const s of staff) {
@@ -375,7 +375,7 @@ async function createMasterData(start: Date) {
   // B2B portal user for one retail chain
   const portalUser = await upsertUser("buyer@baraka-demo.uz", "Sherzod Mirzayev (Baraka buyer, demo)", DEMO_PASSWORD);
   await withSystem((tx) =>
-    tx.membership.create({ data: { tenantId, userId: portalUser.id, roleId: ws.roles.CUSTOMER, customerId: out.customers[6].id, jobTitle: "Category buyer" } }),
+    tx.membership.create({ data: { tenantId, userId: portalUser.id, roleId: ws.roles.CUSTOMER, customerId: out.customers[6].id, jobTitle: "Закупщик категории" } }),
   );
   users.portal = { id: portalUser.id, name: portalUser.name, email: portalUser.email };
 

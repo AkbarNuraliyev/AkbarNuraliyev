@@ -1,5 +1,5 @@
 import type { Tx } from "@/lib/prisma";
-import { fmtKg, round } from "@/lib/format";
+import { fmtDate, fmtKg, fmtNum, round } from "@/lib/format";
 import { addDays, addHours, localDateKey } from "@/lib/tz";
 import { notify, nowOf, type ServiceCtx } from "../core";
 import { EPS } from "./inventory";
@@ -24,8 +24,9 @@ export async function runChecks(tx: Tx, ctx: ServiceCtx) {
       await notify(tx, ctx, {
         type: "EXPIRY",
         severity: "WARNING",
-        title: `${soon._count} lot(s) expire within 24 hours`,
-        message: `${fmtKg(soon._sum.quantityKg ?? 0)} must be sold or allocated today (FEFO).`,
+        title: "{n} lot(s) expire within 24 hours",
+        message: "{kg} must be sold or allocated today (FEFO).",
+        params: { n: soon._count, kg: fmtKg(soon._sum.quantityKg ?? 0) },
         link: "/app/inventory?expiring=24",
         dedupeKey: `expiry24:${day}`,
       })
@@ -43,8 +44,9 @@ export async function runChecks(tx: Tx, ctx: ServiceCtx) {
       await notify(tx, ctx, {
         type: "EXPIRED",
         severity: "CRITICAL",
-        title: `${expired._count} expired lot(s) still in stock`,
-        message: `${fmtKg(expired._sum.quantityKg ?? 0)} has passed its expiry date and must be written off.`,
+        title: "{n} expired lot(s) still in stock",
+        message: "{kg} has passed its expiry date and must be written off.",
+        params: { n: expired._count, kg: fmtKg(expired._sum.quantityKg ?? 0) },
         link: "/app/inventory?expiring=expired",
         dedupeKey: `expired:${day}`,
       })
@@ -67,8 +69,9 @@ export async function runChecks(tx: Tx, ctx: ServiceCtx) {
           await notify(tx, ctx, {
             type: "LOW_STOCK",
             severity: "WARNING",
-            title: `Low stock: ${p.name}`,
-            message: `Free stock ${fmtKg(free)} is below the minimum of ${fmtKg(p.minStockKg)}.`,
+            title: "Low stock: {product}",
+            message: "Free stock {free} is below the minimum of {min}.",
+            params: { product: p.name, free: fmtKg(free), min: fmtKg(p.minStockKg) },
             link: `/app/inventory?product=${p.id}`,
             entityType: "product",
             entityId: p.id,
@@ -90,8 +93,9 @@ export async function runChecks(tx: Tx, ctx: ServiceCtx) {
       await notify(tx, ctx, {
         type: "OVERDUE_INVOICE",
         severity: "WARNING",
-        title: `Overdue invoice ${inv.number} — ${inv.customer.name}`,
-        message: `Outstanding ${round(Number(inv.amount) - Number(inv.paidAmount), 0)} UZS, due ${inv.dueAt.toISOString().slice(0, 10)}.`,
+        title: "Overdue invoice {number} — {customer}",
+        message: "Outstanding {amount} UZS, due {date}.",
+        params: { number: inv.number, customer: inv.customer.name, amount: fmtNum(round(Number(inv.amount) - Number(inv.paidAmount), 0)), date: fmtDate(inv.dueAt, ctx.tz) },
         link: `/app/sales/receivables`,
         entityType: "sales_invoice",
         entityId: inv.id,
@@ -107,8 +111,9 @@ export async function runChecks(tx: Tx, ctx: ServiceCtx) {
       await notify(tx, ctx, {
         type: "LICENCE_EXPIRY",
         severity: "INFO",
-        title: `Driver licence expiring: ${d.name}`,
-        message: `Licence ${d.licenseNumber ?? ""} expires ${d.licenseExpiry?.toISOString().slice(0, 10)}.`,
+        title: "Driver licence expiring: {name}",
+        message: "Licence {licence} expires {date}.",
+        params: { name: d.name, licence: d.licenseNumber ?? "", date: d.licenseExpiry ? fmtDate(d.licenseExpiry, ctx.tz) : "" },
         link: "/app/logistics/drivers",
         dedupeKey: `licence:${d.id}:${d.licenseExpiry?.toISOString().slice(0, 10)}`,
       })

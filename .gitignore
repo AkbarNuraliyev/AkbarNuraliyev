@@ -9,3 +9,8 @@ next-env.d.ts
 test-results/
 tests/e2e/screenshots/
 .DS_Store
+# role tutorial videos: generated screenshots, audio and renders
+video/public/cap/
+video/public/voice/
+video/out/
+video/src/data.json

@@ -336,8 +336,9 @@ export async function closeShift(tx: Tx, ctx: ServiceCtx, shiftId: string) {
     await notify(tx, ctx, {
       type: "MASS_BALANCE",
       severity: "WARNING",
-      title: `Unexplained mass difference in shift ${shift.number}`,
-      message: `${round(m.unexplainedKg, 1)} kg (${round(m.unexplainedPct, 2)}%) of input weight is not accounted for by outputs or waste (tolerance ${ctx.settings.massBalanceTolerancePct}%).`,
+      title: "Unexplained mass difference in shift {number}",
+      message: "{kg} kg ({pct}%) of input weight is not accounted for by outputs or waste (tolerance {tol}%).",
+      params: { number: shift.number, kg: round(m.unexplainedKg, 1), pct: round(m.unexplainedPct, 2), tol: ctx.settings.massBalanceTolerancePct },
       link: `/app/production/shifts/${shiftId}`,
       entityType: "production_shift",
       entityId: shiftId,

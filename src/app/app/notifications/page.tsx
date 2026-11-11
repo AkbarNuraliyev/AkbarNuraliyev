@@ -1,4 +1,5 @@
 import Link from "@/components/ui/link";
+import { notificationParams } from "@/lib/notifications";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";
 import { fmtDateTime } from "@/lib/format";
@@ -43,10 +44,10 @@ export default async function NotificationsPage({ searchParams }: { searchParams
                 <StatusBadge status={n.severity} />
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className={n.readAt ? "text-sm text-ink" : "text-sm font-semibold text-ink"}>{n.title}</span>
+                    <span className={n.readAt ? "text-sm text-ink" : "text-sm font-semibold text-ink"}>{ctx.t(n.title, notificationParams(n.params))}</span>
                     {n.status !== "OPEN" && <StatusBadge status={n.status} />}
                   </div>
-                  <p className="mt-0.5 text-[13px] text-ink-3">{n.message}</p>
+                  <p className="mt-0.5 text-[13px] text-ink-3">{ctx.t(n.message, notificationParams(n.params))}</p>
                   <div className="mt-1 text-[12px] text-ink-3">
                     {fmtDateTime(n.createdAt, ctx.tz)} · {n.type.replaceAll("_", " ").toLowerCase()}
                     {n.link && (

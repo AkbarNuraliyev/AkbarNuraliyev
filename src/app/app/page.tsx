@@ -1,4 +1,5 @@
 import Link from "@/components/ui/link";
+import { notificationParams } from "@/lib/notifications";
 import { Download } from "lucide-react";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";
@@ -118,7 +119,7 @@ export default async function Overview({ searchParams }: { searchParams: Promise
                 <li key={a.id} className="flex gap-2.5">
                   <StatusBadge status={a.severity} />
                   <div className="min-w-0">
-                    <Link href={a.link ?? "/app/notifications"} className="block truncate text-[13px] font-medium text-ink hover:underline">{a.title}</Link>
+                    <Link href={a.link ?? "/app/notifications"} className="block truncate text-[13px] font-medium text-ink hover:underline">{t(a.title, notificationParams(a.params))}</Link>
                     <div className="text-[12px] text-ink-3">{fmtDateTime(a.createdAt, ctx.tz)}</div>
                   </div>
                 </li>

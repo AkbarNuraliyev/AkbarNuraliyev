@@ -72,6 +72,12 @@ Didox, Faktura.uz, 1C, Smartup, Wialon, BILLZ and FoodMate/Marel appear as **Not
 
 Subscription payments are recorded as invoices and are activated only when a Super Admin confirms a bank transfer with its reference — no payment gateway is connected and no payment is ever marked paid automatically. Demo temperature readings are labelled as demo data, not live telemetry. Quality and HACCP features support record-keeping; they do not imply any certification.
 
+## Video guides
+
+Russian video tutorials for every role (owner, company admin, department manager, warehouse
+employee, driver, B2B customer, super admin) are produced from the running app — see
+[`video/README.md`](video/README.md) for the capture → narration → render pipeline.
+
 ## Tests
 
 ```bash
