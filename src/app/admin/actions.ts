@@ -28,7 +28,7 @@ function defineAdminAction<S extends z.ZodTypeAny>(schema: S, handler: Handler<S
       return r;
     } catch (e) {
       if (isNextControlError(e)) throw e;
-      if (e instanceof AppError) return { ok: false, message: t(e.message, e.params) };
+      if (e instanceof AppError) return { ok: false, message: t(e.template, e.params) };
       console.error("[admin action]", e);
       return { ok: false, message: t("Something went wrong. The operation was not saved.") };
     }

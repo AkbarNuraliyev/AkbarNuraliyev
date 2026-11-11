@@ -46,11 +46,7 @@ export async function apiRun<T>(ctx: ApiCtx, fn: (tx: Tx) => Promise<T>, status 
     void dispatchPendingWebhooks(ctx.tenantId).catch(() => undefined);
     return NextResponse.json({ data }, { status });
   } catch (e) {
-    if (e instanceof AppError) {
-      let msg = e.message;
-      for (const [k, v] of Object.entries(e.params)) msg = msg.split(`{${k}}`).join(String(v));
-      return apiError(422, msg);
-    }
+    if (e instanceof AppError) return apiError(422, e.message);
     console.error("[api]", e);
     return apiError(500, "Internal error");
   }

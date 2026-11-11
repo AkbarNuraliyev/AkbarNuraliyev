@@ -73,7 +73,7 @@ export function defineAction<S extends z.ZodTypeAny>(opts: ActionOptions<S>, han
     } catch (e) {
       if (isNextControlError(e)) throw e;
       if (e instanceof AppError) {
-        return { ok: false, message: t(e.message, e.params), errors: e.field ? { [e.field]: t(e.message, e.params) } : undefined };
+        return { ok: false, message: t(e.template, e.params), errors: e.field ? { [e.field]: t(e.template, e.params) } : undefined };
       }
       console.error("[action error]", e);
       return { ok: false, message: t("Something went wrong. The operation was not saved.") };
@@ -94,7 +94,7 @@ export function definePublicAction<S extends z.ZodTypeAny>(schema: S, handler: (
       return result;
     } catch (e) {
       if (isNextControlError(e)) throw e;
-      if (e instanceof AppError) return { ok: false, message: t(e.message, e.params), errors: e.field ? { [e.field]: t(e.message, e.params) } : undefined };
+      if (e instanceof AppError) return { ok: false, message: t(e.template, e.params), errors: e.field ? { [e.field]: t(e.template, e.params) } : undefined };
       console.error("[public action error]", e);
       return { ok: false, message: t("Something went wrong. Please try again.") };
     }
