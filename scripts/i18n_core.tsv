@@ -1,0 +1,511 @@
+Overview	Обзор	Umumiy ko‘rinish
+Procurement & Farms	Закупки и фермы	Xaridlar va fermalar
+Raw Material Receiving	Приёмка сырья	Xomashyo qabuli
+Production / MES	Производство / MES	Ishlab chiqarish / MES
+Products & Labels	Продукция и этикетки	Mahsulotlar va yorliqlar
+Inventory & Warehouses	Запасы и склады	Zaxiralar va omborlar
+B2B Orders	B2B заказы	B2B buyurtmalar
+Sales & Customers	Продажи и клиенты	Savdo va mijozlar
+Logistics & Fleet	Логистика и транспорт	Logistika va transport
+Retail Locations	Розничные точки	Chakana savdo nuqtalari
+Quality Control	Контроль качества	Sifat nazorati
+Traceability	Прослеживаемость	Kuzatuvchanlik
+Reports & Analytics	Отчёты и аналитика	Hisobotlar va tahlil
+Employees & Training	Сотрудники и обучение	Xodimlar va o‘qitish
+Integrations	Интеграции	Integratsiyalar
+Settings & Subscription	Настройки и подписка	Sozlamalar va obuna
+Super Admin	Суперадмин	Superadmin
+Notifications	Уведомления	Bildirishnomalar
+Sign in	Войти	Kirish
+Sign out	Выйти	Chiqish
+Account	Аккаунт	Hisob
+Open menu	Открыть меню	Menyuni ochish
+Collapse sidebar	Свернуть меню	Menyuni yig‘ish
+Expand sidebar	Развернуть меню	Menyuni yoyish
+DEMO DATA	ДЕМО-ДАННЫЕ	DEMO MA’LUMOTLAR
+Demo data	Демо-данные	Demo ma’lumotlar
+Pricing	Тарифы	Tariflar
+ROI calculator	Калькулятор ROI	ROI kalkulyatori
+Platform	Платформа	Platforma
+Start free trial	Начать бесплатно	Bepul boshlash
+Start 14-day free trial	14 дней бесплатно	14 kunlik bepul sinov
+Open app	Открыть приложение	Ilovani ochish
+Explore the SAFI demo	Открыть демо SAFI	SAFI demosini ko‘rish
+Open the demo	Открыть демо	Demoni ochish
+Estimate your ROI	Оценить ROI	ROI ni baholash
+One system from farm to customer.	Одна система от фермы до клиента.	Fermadan mijozgacha yagona tizim.
+Sign in to PoultryOS	Вход в PoultryOS	PoultryOS ga kirish
+Use your work email and password.	Используйте рабочую почту и пароль.	Ish pochtangiz va parolingizdan foydalaning.
+Email	Эл. почта	Elektron pochta
+Password	Пароль	Parol
+Forgot password?	Забыли пароль?	Parolni unutdingizmi?
+Create an organization	Создать организацию	Tashkilot yaratish
+Create your organization	Создайте организацию	Tashkilotingizni yarating
+Company name	Название компании	Kompaniya nomi
+Your full name	Ваше полное имя	To‘liq ismingiz
+Phone	Телефон	Telefon
+Work email	Рабочая почта	Ish pochtasi
+Plan for the trial	Тариф на пробный период	Sinov davri tarifi
+Create workspace	Создать рабочее пространство	Ish maydonini yaratish
+Already have an account?	Уже есть аккаунт?	Hisobingiz bormi?
+Reset your password	Сброс пароля	Parolni tiklash
+Send reset link	Отправить ссылку	Havolani yuborish
+Back to sign in	Назад ко входу	Kirishga qaytish
+Set a new password	Новый пароль	Yangi parol o‘rnatish
+New password	Новый пароль	Yangi parol
+Confirm password	Подтвердите пароль	Parolni tasdiqlang
+Update password	Обновить пароль	Parolni yangilash
+Join a workspace	Присоединиться	Ish maydoniga qo‘shilish
+Accept invitation	Принять приглашение	Taklifni qabul qilish
+Password updated. You can now sign in.	Пароль обновлён. Теперь можно войти.	Parol yangilandi. Endi kirishingiz mumkin.
+Please correct the highlighted fields.	Исправьте отмеченные поля.	Belgilangan maydonlarni tuzating.
+Something went wrong. Please try again.	Что-то пошло не так. Попробуйте ещё раз.	Xatolik yuz berdi. Qayta urinib ko‘ring.
+Something went wrong. The operation was not saved.	Ошибка. Операция не сохранена.	Xatolik. Amal saqlanmadi.
+This field is required	Обязательное поле	Majburiy maydon
+Enter a valid number	Введите число	To‘g‘ri son kiriting
+Enter a valid email address	Введите корректный email	To‘g‘ri email kiriting
+Invalid email or password	Неверный email или пароль	Email yoki parol noto‘g‘ri
+Operational overview	Операционный обзор	Operatsion ko‘rinish
+Today	Сегодня	Bugun
+Yesterday	Вчера	Kecha
+7 days	7 дней	7 kun
+30 days	30 дней	30 kun
+90 days	90 дней	90 kun
+Apply	Применить	Qo‘llash
+From	С	Dan
+To	По	Gacha
+Production (saleable)	Производство (товарное)	Ishlab chiqarish (tovar)
+Birds processed	Птицы переработано	Qayta ishlangan parranda
+Production yield	Выход продукции	Mahsulot chiqishi
+Production waste	Отходы производства	Ishlab chiqarish chiqindilari
+Active orders	Активные заказы	Faol buyurtmalar
+Chilled inventory	Охлаждённые запасы	Sovutilgan zaxira
+Expiring within 72 h	Истекает в течение 72 ч	72 soat ichida muddati tugaydi
+Cold-chain alerts	Нарушения холодовой цепи	Sovuq zanjir ogohlantirishlari
+Customer returns	Возвраты клиентов	Mijoz qaytarishlari
+Sales	Продажи	Savdo
+Outstanding receivables	Дебиторская задолженность	Debitorlik qarzi
+Production by day	Производство по дням	Kunlar bo‘yicha ishlab chiqarish
+Production by product	Производство по продуктам	Mahsulotlar bo‘yicha ishlab chiqarish
+Yield by farm	Выход по фермам	Fermalar bo‘yicha chiqish
+Yield by production shift	Выход по сменам	Smenalar bo‘yicha chiqish
+Waste trend	Динамика отходов	Chiqindilar dinamikasi
+Sales trend	Динамика продаж	Savdo dinamikasi
+Demand vs actual production	Спрос и фактическое производство	Talab va haqiqiy ishlab chiqarish
+Warehouse inventory	Запасы на складах	Ombordagi zaxira
+Expiration risk	Риск истечения срока	Muddat o‘tish xavfi
+Delivery performance	Качество доставки	Yetkazib berish samaradorligi
+Temperature excursions	Температурные отклонения	Harorat og‘ishlari
+Open alerts	Открытые оповещения	Ochiq ogohlantirishlar
+Last 14 days	Последние 14 дней	Oxirgi 14 kun
+Products	Продукты	Mahsulotlar
+By-products	Субпродукты	Qo‘shimcha mahsulotlar
+By-product	Субпродукт	Qo‘shimcha mahsulot
+Product	Продукт	Mahsulot
+Waste	Отходы	Chiqindilar
+Yield	Выход	Chiqish
+Total yield	Общий выход	Umumiy chiqish
+Demand	Спрос	Talab
+Produced	Произведено	Ishlab chiqarilgan
+Planned	Запланировано	Rejalashtirilgan
+Chilled	Охлаждённый	Sovutilgan
+Frozen	Замороженный	Muzlatilgan
+Blocked	Заблокировано	Bloklangan
+Retail	Розница	Chakana
+B2B invoiced	B2B по счетам	B2B hisob-faktura
+In full	В полном объёме	To‘liq hajmda
+On time	Вовремя	O‘z vaqtida
+Storage chambers	Камеры хранения	Saqlash kameralari
+Vehicles	Транспорт	Transport vositalari
+Suppliers	Поставщики	Yetkazib beruvchilar
+Supplier	Поставщик	Yetkazib beruvchi
+Farms	Фермы	Fermalar
+Farm	Ферма	Ferma
+Supplier performance	Эффективность поставщиков	Yetkazib beruvchilar samaradorligi
+New supplier	Новый поставщик	Yangi yetkazib beruvchi
+New farm	Новая ферма	Yangi ferma
+Code	Код	Kod
+Name	Название	Nomi
+Type	Тип	Turi
+Region	Регион	Viloyat
+District	Район	Tuman
+Address	Адрес	Manzil
+Contact	Контакт	Aloqa
+Contact person	Контактное лицо	Aloqa shaxsi
+Contract until	Договор до	Shartnoma muddati
+Contract number	Номер договора	Shartnoma raqami
+Payment terms	Условия оплаты	To‘lov shartlari
+Deliveries	Поставки	Yetkazib berishlar
+Status	Статус	Holat
+Active	Активен	Faol
+Inactive	Неактивен	Nofaol
+All	Все	Hammasi
+Search	Поиск	Qidirish
+Edit	Изменить	Tahrirlash
+Save	Сохранить	Saqlash
+Save changes	Сохранить изменения	O‘zgarishlarni saqlash
+Cancel	Отмена	Bekor qilish
+Confirm	Подтвердить	Tasdiqlash
+Delete	Удалить	O‘chirish
+Create	Создать	Yaratish
+Add	Добавить	Qo‘shish
+Remove	Удалить	Olib tashlash
+Print	Печать	Chop etish
+Import	Импорт	Import
+Details	Подробности	Tafsilotlar
+Notes	Примечания	Izohlar
+Description	Описание	Tavsif
+Previous	Назад	Oldingi
+Next	Далее	Keyingi
+Yes	Да	Ha
+No	Нет	Yo‘q
+Select…	Выберите…	Tanlang…
+No records found	Записи не найдены	Yozuvlar topilmadi
+No data for the selected period	Нет данных за выбранный период	Tanlangan davr uchun ma’lumot yo‘q
+Showing {from}–{to} of {total}	{from}–{to} из {total}	{total} dan {from}–{to}
+Farm / supplier	Ферма / поставщик	Ferma / yetkazib beruvchi
+Receive delivery	Принять поставку	Yetkazmani qabul qilish
+Receive live birds	Приёмка живой птицы	Tirik parrandani qabul qilish
+Supplier and farm	Поставщик и ферма	Yetkazib beruvchi va ferma
+Delivery registration	Регистрация поставки	Yetkazmani ro‘yxatga olish
+Received quantity	Принятое количество	Qabul qilingan miqdor
+Weighing	Взвешивание	Tortish
+Quality inspection	Контроль качества	Sifat tekshiruvi
+Decision	Решение	Qaror
+Accept	Принять	Qabul qilish
+Partially accept	Принять частично	Qisman qabul qilish
+Reject delivery	Отклонить поставку	Yetkazmani rad etish
+Rejection reason	Причина отказа	Rad etish sababi
+Received at	Время приёмки	Qabul vaqti
+Vehicle plate	Госномер	Davlat raqami
+Driver	Водитель	Haydovchi
+Birds declared	Заявлено птиц	E’lon qilingan parranda
+Birds received	Получено птиц	Qabul qilingan parranda
+Dead on arrival	Падёж при доставке	Yo‘lda nobud bo‘lgan
+Rejected birds	Отбраковано птиц	Rad etilgan parranda
+Gross weight (vehicle + crates + birds)	Брутто (машина + ящики + птица)	Brutto (mashina + yashiklar + parranda)
+Tare weight (vehicle + crates)	Тара (машина + ящики)	Tara (mashina + yashiklar)
+Read gross weight from scale	Считать вес с весов	Tarozidan og‘irlikni o‘qish
+Manual entry	Ручной ввод	Qo‘lda kiritish
+Summary	Итог	Xulosa
+Net live weight	Живой вес нетто	Tirik vazn netto
+Average bird weight	Средний вес птицы	O‘rtacha parranda vazni
+Accepted birds	Принято птиц	Qabul qilingan parranda
+Accepted weight	Принятый вес	Qabul qilingan vazn
+Save and generate batch	Сохранить и создать партию	Saqlash va partiya yaratish
+Batch ID	Номер партии	Partiya raqami
+Batch	Партия	Partiya
+Print batch label	Печать этикетки партии	Partiya yorlig‘ini chop etish
+Trace batch	Проследить партию	Partiyani kuzatish
+Accepted	Принято	Qabul qilindi
+Partial	Частично	Qisman
+Rejected	Отклонено	Rad etildi
+Received	Принято	Qabul qilingan
+In production	В производстве	Ishlab chiqarishda
+Completed	Завершено	Yakunlangan
+Recalled	Отозвано	Qaytarib olingan
+Open	Открыта	Ochiq
+Closed	Закрыта	Yopiq
+Shifts & yields	Смены и выход	Smenalar va chiqish
+Demand forecast & planning	Прогноз спроса и план	Talab prognozi va reja
+Facilities & lines	Площадки и линии	Obyektlar va liniyalar
+Open shift	Открыть смену	Smenani ochish
+Close shift	Закрыть смену	Smenani yopish
+Re-open shift	Переоткрыть смену	Smenani qayta ochish
+Shift	Смена	Smena
+Shifts	Смены	Smenalar
+Day	День	Kunduzgi
+Evening	Вечер	Kechki
+Night	Ночь	Tungi
+Live input	Живой вес на входе	Kirish tirik vazn
+Saleable output	Товарный выход	Tovar chiqishi
+Input weight	Вес на входе	Kirish vazni
+Input batches	Входящие партии	Kirish partiyalari
+Register input batch	Зарегистрировать партию	Partiyani ro‘yxatga olish
+Add input	Добавить вход	Kirish qo‘shish
+Record output	Записать выход	Chiqishni qayd etish
+Recorded outputs	Записанные выходы	Qayd etilgan chiqishlar
+Mass balance	Баланс масс	Massa balansi
+Unexplained	Необъяснённое	Izohlanmagan
+Product yields	Выход по продуктам	Mahsulotlar bo‘yicha chiqish
+Formulas	Формулы	Formulalar
+Net weight	Вес нетто	Netto vazn
+Waste category	Категория отходов	Chiqindi toifasi
+Feathers	Перо	Pat
+Blood	Кровь	Qon
+Inedible offal	Непищевые субпродукты	Iste’molga yaroqsiz ichki a’zolar
+Heads	Головы	Boshlar
+Other waste	Прочие отходы	Boshqa chiqindilar
+Forecast demand	Прогноз спроса	Talab prognozi
+Booked orders	Заказано	Buyurtma qilingan
+Usable stock	Доступный запас	Foydalanish mumkin bo‘lgan zaxira
+Recommended production	Рекомендуемое производство	Tavsiya etilgan ishlab chiqarish
+Expected shortage	Ожидаемый дефицит	Kutilayotgan kamomad
+Potential chilled write-off	Возможное списание охлаждённого	Sovutilgan mahsulotni hisobdan chiqarish ehtimoli
+Assumptions	Допущения	Taxminlar
+Save draft	Сохранить черновик	Qoralamani saqlash
+Approve plan	Утвердить план	Rejani tasdiqlash
+Planned vs actual production	План и факт производства	Reja va haqiqiy ishlab chiqarish
+Product catalog	Каталог продукции	Mahsulot katalogi
+Categories	Категории	Toifalar
+Labels & templates	Этикетки и шаблоны	Yorliqlar va shablonlar
+New product	Новый продукт	Yangi mahsulot
+Category	Категория	Toifa
+Storage	Хранение	Saqlash
+Shelf life	Срок годности	Yaroqlilik muddati
+Price	Цена	Narx
+Free stock	Свободный остаток	Erkin qoldiq
+Variable	Весовой	O‘zgaruvchan vazn
+Variable weight	Весовой товар	O‘zgaruvchan vazn
+Generate labels	Создать этикетки	Yorliqlar yaratish
+Generate and print	Создать и печатать	Yaratish va chop etish
+Produced	Произведено	Ishlab chiqarilgan
+Use by	Годен до	Yaroqlilik muddati
+Net	Нетто	Netto
+Stock	Остатки	Qoldiqlar
+Movements	Движения	Harakatlar
+Transfers	Перемещения	Ko‘chirishlar
+Stocktaking	Инвентаризация	Inventarizatsiya
+Warehouses & chambers	Склады и камеры	Omborlar va kameralar
+Scan / lookup	Сканирование	Skanerlash
+Current stock	Текущий остаток	Joriy qoldiq
+Chilled stock	Охлаждённый запас	Sovutilgan zaxira
+Frozen stock	Замороженный запас	Muzlatilgan zaxira
+Expiring ≤ 24 h	Истекает ≤ 24 ч	≤ 24 soatda tugaydi
+Expiring ≤ 48 h	Истекает ≤ 48 ч	≤ 48 soatda tugaydi
+Expiring ≤ 72 h	Истекает ≤ 72 ч	≤ 72 soatda tugaydi
+Expired in stock	Просрочено на складе	Muddati o‘tgan zaxira
+Inventory valuation	Оценка запасов	Zaxiralarni baholash
+Stock by location	Остатки по местам	Joylar bo‘yicha qoldiq
+Location	Место хранения	Joylashuv
+Expires	Годен до	Muddati
+Quantity	Количество	Miqdor
+Expired	Просрочено	Muddati o‘tgan
+Available	Доступно	Mavjud
+Quarantine	Карантин	Karantin
+Write off expired	Списать просроченное	Muddati o‘tganni hisobdan chiqarish
+Lot actions	Действия с партией	Partiya amallari
+Move / transfer	Переместить	Ko‘chirish
+Write-off	Списание	Hisobdan chiqarish
+Inventory adjustment	Корректировка	Tuzatish
+Print labels	Печать этикеток	Yorliqlarni chop etish
+New transfer	Новое перемещение	Yangi ko‘chirish
+Start stocktake	Начать инвентаризацию	Inventarizatsiyani boshlash
+New warehouse	Новый склад	Yangi ombor
+Find	Найти	Topish
+New order	Новый заказ	Yangi buyurtma
+Order	Заказ	Buyurtma
+Customer	Клиент	Mijoz
+Customers	Клиенты	Mijozlar
+Delivery date	Дата доставки	Yetkazish sanasi
+Ordered	Заказано	Buyurtma qilingan
+Total	Итого	Jami
+Source	Источник	Manba
+Created	Создан	Yaratilgan
+New	Новый	Yangi
+Confirmed	Подтверждён	Tasdiqlangan
+In Production / Allocated	В производстве / Зарезервирован	Ishlab chiqarishda / Zaxiralangan
+Picking	Комплектация	Komplektlash
+Ready for Dispatch	Готов к отгрузке	Jo‘natishga tayyor
+In Delivery	В доставке	Yetkazilmoqda
+Delivered	Доставлен	Yetkazildi
+Partially Delivered	Доставлен частично	Qisman yetkazildi
+Cancelled	Отменён	Bekor qilindi
+Confirm order	Подтвердить заказ	Buyurtmani tasdiqlash
+Allocate stock (FEFO)	Резервировать (FEFO)	Zaxiralash (FEFO)
+Start picking	Начать комплектацию	Komplektlashni boshlash
+Complete picking	Завершить комплектацию	Komplektlashni yakunlash
+Confirm delivery	Подтвердить доставку	Yetkazishni tasdiqlash
+Cancel order	Отменить заказ	Buyurtmani bekor qilish
+Pick list	Лист комплектации	Komplektlash varag‘i
+Invoice	Счёт-фактура	Hisob-faktura
+Delivery note	Накладная	Yuk xati
+Order lines	Строки заказа	Buyurtma qatorlari
+Batch allocations (FEFO)	Резерв по партиям (FEFO)	Partiyalar bo‘yicha zaxira (FEFO)
+Status history	История статусов	Holatlar tarixi
+Record payment	Записать оплату	To‘lovni qayd etish
+Manual	Вручную	Qo‘lda
+Portal	Портал	Portal
+Price lists	Прайс-листы	Narx varaqlari
+Receivables	Дебиторка	Debitorlik
+Returns	Возвраты	Qaytarishlar
+New customer	Новый клиент	Yangi mijoz
+HoReCa	HoReCa	HoReCa
+Retail chain	Розничная сеть	Chakana tarmoq
+Distributor	Дистрибьютор	Distribyutor
+Wholesale	Опт	Ulgurji
+Other	Другое	Boshqa
+Outstanding	Задолженность	Qarz
+Overdue	Просрочено	Muddati o‘tgan
+Unpaid	Не оплачен	To‘lanmagan
+Paid	Оплачен	To‘langan
+Shipments	Рейсы	Reyslar
+Shipment	Рейс	Reys
+Cold chain	Холодовая цепь	Sovuq zanjir
+Drivers	Водители	Haydovchilar
+Routes	Маршруты	Marshrutlar
+Driver app	Приложение водителя	Haydovchi ilovasi
+Plan shipment	Запланировать рейс	Reysni rejalashtirish
+In transit	В пути	Yo‘lda
+Depart	Отправить	Jo‘natish
+Start trip	Начать рейс	Reysni boshlash
+My deliveries	Мои доставки	Mening yetkazishlarim
+Record temperature	Записать температуру	Haroratni qayd etish
+Temperature	Температура	Harorat
+Excursion	Отклонение	Og‘ish
+Stores	Магазины	Do‘konlar
+New store	Новый магазин	Yangi do‘kon
+Sales today	Продажи сегодня	Bugungi savdo
+Record sale	Записать продажу	Savdoni qayd etish
+Record return	Записать возврат	Qaytarishni qayd etish
+Low stock	Низкий остаток	Kam qoldiq
+Inspections & records	Проверки и записи	Tekshiruvlar va yozuvlar
+Non-conformities & CAPA	Несоответствия и CAPA	Nomuvofiqliklar va CAPA
+Checklists (HACCP)	Чек-листы (ХАССП)	Nazorat varaqlari (HACCP)
+New inspection	Новая проверка	Yangi tekshiruv
+Pass	Соответствует	Muvofiq
+Fail	Не соответствует	Nomuvofiq
+Minor	Незначительное	Kichik
+Major	Значительное	Jiddiy
+Critical	Критическое	Kritik
+Batch traceability	Прослеживаемость партий	Partiyalar kuzatuvchanligi
+Initiate recall	Начать отзыв	Qaytarib olishni boshlash
+Block batch	Заблокировать партию	Partiyani bloklash
+Log complaint	Зарегистрировать жалобу	Shikoyatni ro‘yxatga olish
+Customer QR page	QR-страница для покупателя	Xaridor uchun QR sahifa
+Event timeline	Хронология событий	Voqealar xronologiyasi
+Recall	Отзыв	Qaytarib olish
+Recalls	Отзывы продукции	Mahsulotni qaytarib olish
+Production	Производство	Ishlab chiqarish
+Receiving	Приёмка	Qabul qilish
+Packaging	Упаковка	Qadoqlash
+Warehouse	Склад	Ombor
+Team members	Сотрудники	Xodimlar
+Roles, permissions & departments	Роли, права и отделы	Rollar, huquqlar va bo‘limlar
+Training	Обучение	O‘qitish
+Invite user	Пригласить пользователя	Foydalanuvchini taklif qilish
+Role	Роль	Rol
+Department	Отдел	Bo‘lim
+Tenant Owner	Владелец	Egasi
+Company Admin	Администратор компании	Kompaniya administratori
+Department Manager	Руководитель отдела	Bo‘lim rahbari
+Employee	Сотрудник	Xodim
+Connectors	Коннекторы	Konnektorlar
+REST API & keys	REST API и ключи	REST API va kalitlar
+Webhooks	Вебхуки	Vebxuklar
+Not connected	Не подключено	Ulanmagan
+Configured	Настроено	Sozlangan
+Connected	Подключено	Ulangan
+Configure	Настроить	Sozlash
+Test connection	Проверить соединение	Ulanishni tekshirish
+Organization	Организация	Tashkilot
+Subscription & billing	Подписка и оплата	Obuna va to‘lov
+Holidays	Праздники	Bayramlar
+Audit log	Журнал аудита	Audit jurnali
+Current plan	Текущий тариф	Joriy tarif
+Usage	Использование	Foydalanish
+Billing history	История платежей	To‘lovlar tarixi
+Monthly	Ежемесячно	Oylik
+Yearly	Ежегодно	Yillik
+month	мес.	oy
+year	год	yil
+Trialing	Пробный период	Sinov davri
+Past due	Просрочена	Muddati o‘tgan
+Trial expired	Пробный период истёк	Sinov muddati tugadi
+Most popular	Популярный	Eng ommabop
+Users	Пользователи	Foydalanuvchilar
+Unlimited	Без ограничений	Cheklovsiz
+Financial impact calculator	Калькулятор финансового эффекта	Moliyaviy samara kalkulyatori
+Daily production volume	Объём производства в сутки	Kunlik ishlab chiqarish hajmi
+Working days per year	Рабочих дней в году	Yildagi ish kunlari
+Chilled product share	Доля охлаждённой продукции	Sovutilgan mahsulot ulushi
+Estimated total annual financial impact	Оценка годового финансового эффекта	Yillik moliyaviy samara bahosi
+Write-off savings	Экономия на списаниях	Hisobdan chiqarishdagi tejov
+B2B portal	B2B портал	B2B portal
+Dashboard	Главная	Bosh sahifa
+Catalog & prices	Каталог и цены	Katalog va narxlar
+My orders	Мои заказы	Mening buyurtmalarim
+Documents	Документы	Hujjatlar
+Welcome	Добро пожаловать	Xush kelibsiz
+Submit order	Отправить заказ	Buyurtmani yuborish
+Open orders	Открытые заказы	Ochiq buyurtmalar
+Your price	Ваша цена	Sizning narxingiz
+Batch verified	Партия подтверждена	Partiya tasdiqlandi
+This batch has been recalled	Партия отозвана	Partiya qaytarib olindi
+Production date	Дата производства	Ishlab chiqarilgan sana
+Ingredients	Состав	Tarkibi
+Certificates	Сертификаты	Sertifikatlar
+Farm region	Регион фермы	Ferma viloyati
+Batch number	Номер партии	Partiya raqami
+Organizations	Организации	Tashkilotlar
+Plans & pricing	Тарифы и цены	Tariflar va narxlar
+Subscription payments	Оплаты подписок	Obuna to‘lovlari
+Activity	Активность	Faollik
+Email outbox	Исходящие письма	Chiquvchi xatlar
+Suspend	Приостановить	To‘xtatish
+Activate	Активировать	Faollashtirish
+Suspended	Приостановлена	To‘xtatilgan
+Confirm payment	Подтвердить оплату	To‘lovni tasdiqlash
+Mark all as read	Отметить все прочитанными	Hammasini o‘qilgan deb belgilash
+Acknowledge	Принять к сведению	Qabul qilish
+Resolve	Решено	Hal qilindi
+Warning	Предупреждение	Ogohlantirish
+Info	Инфо	Ma’lumot
+Draft	Черновик	Qoralama
+Approved	Утверждён	Tasdiqlangan
+Done	Выполнено	Bajarildi
+Pending	Ожидает	Kutilmoqda
+Weight	Вес	Vazn
+Units	Шт.	Dona
+Date	Дата	Sana
+Time	Время	Vaqt
+Reason	Причина	Sabab
+Action	Действие	Amal
+User	Пользователь	Foydalanuvchi
+Responsible	Ответственный	Mas’ul
+Due date	Срок	Muddat
+Amount	Сумма	Summa
+Revenue	Выручка	Tushum
+kg	кг	kg
+days	дней	kun
+birds	птиц	parranda
+avg	ср.	o‘rt.
+Chilled poultry	Охлаждённая птица	Sovutilgan parranda
+Frozen poultry	Замороженная птица	Muzlatilgan parranda
+Semi-finished products	Полуфабрикаты	Yarim tayyor mahsulotlar
+Ready-to-cook products	Продукты для готовки	Pishirishga tayyor mahsulotlar
+Processed products	Продукты переработки	Qayta ishlangan mahsulotlar
+By-products & offal	Субпродукты	Qo‘shimcha mahsulotlar
+Procurement	Закупки	Xaridlar
+Quality	Качество	Sifat
+Finance	Финансы	Moliya
+Logistics	Логистика	Logistika
+Set up your workspace	Настройка рабочего пространства	Ish maydonini sozlash
+You do not have access to this section	У вас нет доступа к этому разделу	Bu bo‘limga ruxsatingiz yo‘q
+Back to overview	Назад к обзору	Umumiy ko‘rinishga qaytish
+Compare plans and upgrade	Сравнить тарифы	Tariflarni solishtirish
+Notifications & alerts	Уведомления и оповещения	Bildirishnomalar va ogohlantirishlar
+No notifications	Нет уведомлений	Bildirishnomalar yo‘q
+Open record	Открыть запись	Yozuvni ochish
+SAFI Demo accounts (demonstration data)	Демо-аккаунты SAFI (демонстрационные данные)	SAFI demo hisoblari (namoyish ma’lumotlari)
+Password for all demo users	Пароль для всех демо-пользователей	Barcha demo foydalanuvchilar uchun parol
+Driver (mobile)	Водитель (моб.)	Haydovchi (mobil)
+Choose a plan	Выбрать тариф	Tarifni tanlash
+Renew subscription	Продлить подписку	Obunani uzaytirish
+Reports & analytics	Отчёты и аналитика	Hisobotlar va tahlil
+Inventory	Запасы	Zaxiralar
+Plan	Тариф	Tarif
+Shipped	Отгружено	Jo‘natildi
+Reserved	Зарезервировано	Zaxiralangan
+Free	Свободно	Erkin
+Variance	Расхождение	Farq
+Counted	Посчитано	Sanaldi
+SAFI Demo workspace: all records are demonstration data and are kept separate from real tenants. Production volumes and prices are illustrative assumptions.	Рабочее пространство SAFI Demo: все записи — демонстрационные данные, отделённые от реальных организаций. Объёмы производства и цены условны.	SAFI Demo ish maydoni: barcha yozuvlar namoyish ma’lumotlari bo‘lib, haqiqiy tashkilotlardan ajratilgan. Ishlab chiqarish hajmlari va narxlar taxminiy.
+excursions in period	отклонений за период	davrdagi og‘ishlar
+not yet delivered	ещё не доставлены	hali yetkazilmagan
+time zone	часовой пояс	vaqt zonasi
+{kg} input awaiting output	{kg} входа ожидает выхода	{kg} kirish chiqishni kutmoqda
+{n} delivered orders	доставлено заказов: {n}	yetkazilgan buyurtmalar: {n}
+{n} lots	партий: {n}	partiyalar: {n}
+{n} open invoices	открытых счетов: {n}	ochiq hisoblar: {n}
+{n} returns	возвратов: {n}	qaytarishlar: {n}
