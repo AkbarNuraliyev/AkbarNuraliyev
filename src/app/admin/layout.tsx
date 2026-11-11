@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { Bird, LogOut } from "lucide-react";
 import { requireSuperAdmin } from "@/lib/auth";
 import { LanguageSwitcher } from "@/components/app/language-switcher";

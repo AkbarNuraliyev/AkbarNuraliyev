@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import type { ReactNode } from "react";
 
 export function cx(...c: (string | false | null | undefined)[]) {
@@ -40,6 +40,14 @@ export function LinkButton({
   prefetch?: boolean;
   target?: string;
 }) {
+  // File downloads and print views are not app routes: plain anchors, never prefetched.
+  if (href.startsWith("/api/") || href.startsWith("/print/")) {
+    return (
+      <a href={href} className={buttonClass(variant, size, className)} target={target} rel={target === "_blank" ? "noreferrer" : undefined}>
+        {children}
+      </a>
+    );
+  }
   return (
     <Link href={href} className={buttonClass(variant, size, className)} prefetch={prefetch} target={target}>
       {children}

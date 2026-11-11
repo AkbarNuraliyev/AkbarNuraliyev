@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import {
   Wheat, PackageCheck, Factory, Tags, Warehouse, ClipboardList, Truck, Store, ShieldCheck, Route, BarChart3, Plug, ArrowRight, Check, ThermometerSnowflake, QrCode, Scale,
 } from "lucide-react";

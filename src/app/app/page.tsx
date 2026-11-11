@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { Download } from "lucide-react";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { fmtDateTime, fmtKg, fmtNum } from "@/lib/format";
 import { StatusBadge } from "@/components/ui/status";
 import { SimpleTable } from "@/components/ui/table";

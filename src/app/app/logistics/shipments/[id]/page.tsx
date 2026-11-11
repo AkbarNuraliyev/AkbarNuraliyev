@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { notFound } from "next/navigation";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";

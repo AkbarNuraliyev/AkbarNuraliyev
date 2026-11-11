@@ -59,6 +59,9 @@ export function ActionForm({
         id={id}
         ref={ref}
         className={className}
+        // Progressive enhancement: before hydration the browser POSTs to the server action
+        // (never a GET that would put field values such as passwords in the URL).
+        action={formAction}
         noValidate
         onSubmit={(e) => {
           e.preventDefault();

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { requireSuperAdmin } from "@/lib/auth";
 import { withSystem } from "@/lib/db";
 import { fmtDate } from "@/lib/format";

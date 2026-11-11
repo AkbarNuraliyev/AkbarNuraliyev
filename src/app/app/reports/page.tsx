@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";
 import { fmtKg, fmtMoney, fmtMoneyShort, fmtNum, fmtPct, pct, round } from "@/lib/format";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { getI18n } from "@/lib/i18n/server";
 import { withSystem } from "@/lib/db";
 import { sha256 } from "@/lib/crypto";

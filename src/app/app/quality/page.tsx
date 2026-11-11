@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import type { Prisma } from "@prisma/client";
 import { requireApp } from "@/lib/auth";
 import { withTenant } from "@/lib/db";

@@ -7,7 +7,7 @@ import { ExportLinks, LinkButton, PageHeader, Pill } from "@/components/ui/basic
 import { StatusBadge } from "@/components/ui/status";
 import { DataTable, listParams, orderByOf, qs, spGet, type SP } from "@/components/ui/table";
 import { FilterSelect, SearchBox, Toolbar } from "@/components/ui/controls";
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { OPEN_STATUSES } from "@/server/services/orders";
 
 const STATUS_TABS: { key: string; label: string; statuses?: OrderStatus[] }[] = [

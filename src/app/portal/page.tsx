@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { requirePortal } from "@/lib/auth";
 import { withTenant } from "@/lib/db";
 import { fmtDay, fmtMoney, num } from "@/lib/format";

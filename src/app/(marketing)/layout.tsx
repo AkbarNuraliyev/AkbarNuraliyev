@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/link";
 import { Bird } from "lucide-react";
 import { LanguageSwitcher } from "@/components/app/language-switcher";
 import { getI18n } from "@/lib/i18n/server";
