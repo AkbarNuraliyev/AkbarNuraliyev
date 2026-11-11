@@ -1,0 +1,49 @@
+{
+  "name": "poultryos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PoultryOS — multi-tenant SaaS for poultry farms, processing plants and distribution",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "prisma migrate deploy",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:reset": "prisma migrate reset --force --skip-seed && tsx prisma/seed.ts",
+    "test": "vitest run",
+    "test:e2e": "node tests/e2e/smoke.mjs",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "5.2.8",
+    "@prisma/client": "6.19.3",
+    "bwip-js": "4.11.4",
+    "exceljs": "4.4.0",
+    "lucide-react": "0.577.0",
+    "next": "15.5.29",
+    "nodemailer": "7.0.10",
+    "papaparse": "5.5.3",
+    "qrcode": "1.5.4",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "recharts": "3.2.1",
+    "server-only": "^0.0.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "22.20.5",
+    "@types/nodemailer": "7.0.3",
+    "@types/papaparse": "5.3.16",
+    "@types/qrcode": "1.5.5",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "prisma": "6.19.3",
+    "tailwindcss": "4.1.18",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
